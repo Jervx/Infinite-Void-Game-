@@ -1,9 +1,25 @@
 # Infinite-Void-Game-
-This is a simple game which is inspired by the Nokia game called "Space Impact"
+  This is literaly no ending game. You will be a ship which the main goal is to surviving the void where one Huge Red Alien life exist trying dominate the outer space.
+
+### Why did i created this game?
+
+  This is a simple game which is inspired by the Nokia game called "Space Impact" which i've been playing when i was 7 years old. Now i kinda remember
+  that game so i created this really really simple game.
+  
+### Controls
+    <b>T</b> - to start the game
+    P - Pause/Resume 
+    A - Firing Mode 1 (Deploy 1 missile)
+    S - Firing Mode 2 (Deploy 2 missiles)
+    D - Firing Mode 3 (Deploy 3 missiles)
+    NumLock - Enable Debugging mode (For Developer Only XDXD)
 
 ## Build Using
-- Java 14
-- JavaFX
-- CSS
-- FXML
+  - Java 14
+  - JavaFX
+  - CSS
+  - FXML
+  - No other Library Used
 
+
+I know the code are so messed up, i'm so sorry!
