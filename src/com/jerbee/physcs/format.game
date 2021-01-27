@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane prefHeight="594.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.jerbee.physcs.formatFunction">
+   <center>
+      <Canvas fx:id="canvas" height="700.0" width="1080.0" BorderPane.alignment="CENTER" />
+   </center>
+</BorderPane>
