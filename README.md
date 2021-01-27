@@ -8,11 +8,18 @@
   that game so i created this really really simple game.
   
 #### Controls
+
+    Mouse Movement - Character Movement
+    
     T - to start the game
     P - Pause/Resume 
+    
     A - Firing Mode 1 (Deploy 1 missile)
     S - Firing Mode 2 (Deploy 2 missiles)
     D - Firing Mode 3 (Deploy 3 missiles)
+    
+    O - Add 1 More Enemy in the Game
+    
     NumLock - Enable Debugging mode (For Developer Only XDXD)
 
 #### Build Using
