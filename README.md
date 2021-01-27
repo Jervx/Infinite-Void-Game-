@@ -1,6 +1,8 @@
 ## Infinite Void Game
 
   This is literally no ending game. You will be a ship which the main goal is to surviving the void where one Huge Red Alien life exist trying dominate the outer space.
+ 
+![](Infinite Void Game.png)
 
 #### Why did i created this game?
 
