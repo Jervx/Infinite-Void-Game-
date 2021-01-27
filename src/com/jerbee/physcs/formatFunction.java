@@ -57,13 +57,13 @@ public class formatFunction implements Initializable{
 	String firedStat = "Not Firing";
 	int eliminatedRefresh = 0;
 	
-	public void clearCLI() { for(int x = 0; x < 100 ;x++)System.out.println(); }
+	public void clearCLI() { for(int x = 0; x < 20 ;x++)System.out.println(); }
 	
 	public void cliPlay() {
 		clearCLI();
 		eliminatedRefresh--;
 		if(eliminatedRefresh < 0)elimStat="-";
-		System.out.printf("Game:%s\nHit Status: %s\nGun Status:",gameStat,elimStat,firedStat);
+		System.out.printf("Game:%s\nHit Status: %s\nGun Status: %s",gameStat,elimStat,firedStat);
 	}
 	
 	public void update() {
@@ -273,12 +273,15 @@ public class formatFunction implements Initializable{
 				if(e.getCode() == KeyCode.A) {
 					firedStat = " Firing";
 					addBullet(1,1);
-				}else firedStat = " Not Firing";
-				if(e.getCode() == KeyCode.S && kills >= 100) addBullet(1,2);
-				else firedStat = " Not Firing";
-				if(e.getCode() == KeyCode.D && kills >= 10000) addBullet(1,3);
-				else firedStat = " Not Firing";
-				
+				}
+				else if(e.getCode() == KeyCode.S && kills >= 100) {
+					addBullet(1,2);
+					firedStat = " Firing";
+				}
+				else if(e.getCode() == KeyCode.D && kills >= 10000) {
+					firedStat = " Firing";
+					addBullet(1,3);
+				}
 				
 				if(e.getCode() == KeyCode.NUM_LOCK) debuggingMode = debuggingMode ? false : true;
 				if(e.getCode() == KeyCode.O) addEnemy(1);
@@ -287,6 +290,9 @@ public class formatFunction implements Initializable{
 				spaceShip.setFiring(5);
 			}
 		);
+		canvas.setOnKeyReleased(e->{
+			firedStat = " Not Firing";
+		});
 		canvas.setCursor(Cursor.NONE);
 		canvas.setOnMouseMoved(ev->{
 			charX = ev.getX();
