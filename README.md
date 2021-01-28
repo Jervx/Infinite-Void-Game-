@@ -19,8 +19,8 @@ Download `Infinite Void Game` Here 👉 [Infinite Void Game Release Page](https:
     P - Pause/Resume 
     
     A - Firing Mode 1 (Deploy 1 missile)
-    S - Firing Mode 2 (Deploy 2 missiles)
-    D - Firing Mode 3 (Deploy 3 missiles)
+    S - Firing Mode 2 (Deploy 2 missiles) Only Unlocks after 100 kills
+    D - Firing Mode 3 (Deploy 3 missiles) Only Unlocks after 10,000 kills
     
     O - Add 1 More Enemy in the Game
     
