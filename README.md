@@ -4,7 +4,7 @@
  
 ![Game Screenshot](https://raw.githubusercontent.com/Jervx/Infinite-Void-Game-/main/Source/Covers/Infinite%20Void%20Game%20.gif)
 
-Download `Komorebi` from the [Infinite Void Game Release Page](https://github.com/Jervx/Infinite-Void-Game-/releases).
+Download `Infinite Void Game` Here 👉 [Infinite Void Game Release Page](https://github.com/Jervx/Infinite-Void-Game-/releases).
 
 #### Why did i created this game?
 
