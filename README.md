@@ -4,6 +4,8 @@
  
 ![Game Screenshot](https://raw.githubusercontent.com/Jervx/Infinite-Void-Game-/main/Source/Covers/Infinite%20Void%20Game%20.gif)
 
+Download `Komorebi` from the [Infinite Void Game Release Page](https://github.com/Jervx/Infinite-Void-Game-/releases).
+
 #### Why did i created this game?
 
   This is a simple game which is inspired by the Nokia game called "Space Impact" which i've been playing when i was 7 years old. Now i kinda remember
